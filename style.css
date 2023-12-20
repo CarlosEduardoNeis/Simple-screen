@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --span-h2: var(color: #ee24ff);
+}
+
+body {
+  font-size: 1.6rem;
+
+  display: flex;
+  padding-top: 64px;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  height: 900px;
+}
+
+header {
+  margin: 64 138 248;
+}
+
+main {
+  border: 2px;
+  color: black solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+
+  color: #3f3d56;
+  font-family: "Dosis", sans-serif;
+  font-size: 2.6rem;
+  font-weight: 300;
+}
+
+.titulo span {
+  color: #ee24ff;
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+
+.main-text {
+  width: 540px;
+  height: 107px;
+
+  color: #828282;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+}
+
+.main-text span {
+  line-height: 6.2rem;
+}
+
+.main-text strong {
+  color: black;
+}
+
+.footer-text {
+  width: 540px;
+  height: 21px;
+
+  color: #828282;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 32px 0;
+}
+
+main strong {
+  font-weight: bold;
+  color: black solid;
+}
+
+main h2 span {
+  background: var(--span-h2);
+  color: var(--span-h2);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.linha {
+  margin: 0 auto;
+  width: 391px;
+  height: 0;
+
+  border: #eceff2 solid 1px;
+}
+
+.container-botoes {
+  padding: 0 auto 540px;
+  display: flex;
+  justify-content: center;
+}
+
+.destinos,
+.ofertas,
+.contato {
+  padding: 0 4.2rem;
+
+  color: #3f3d56;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  transition: transform 0.4s;
+}
+
+.destinos:hover,
+.ofertas:hover,
+.contato:hover {
+  font-weight: 1200;
+  color: black;
+  transform: scale(1.05);
+
+  cursor: pointer;
+}
+
+.imagem {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 205px 0 0 0;
+}
+#ondas {
+  width: 100%;
+  position: absolute;
+}
